@@ -12,6 +12,9 @@ Structure: [move][player_payoff]
 - Rows (moves): W=0, X=1, Y=2, Z=3
 - Columns: payoffs for (self, competitor, supply_chain1, supply_chain2)
 - --> (for an n-Prisoner's Dilemma, the first column sets payoff for self, second for second player etc.)
+- For example, if a firm has two competing suppliers for a material, it can decide to make relationship-specific investments in supplier A (X) or supplier B (Y) or in both (Z). It can also choose not to invest in anyone (W).
+- As with the Prisoner's Dilemma, there is always a temptation to defect (W) because no matter what anyone does, one is always better of not incurring any investment costs.
+- Moreover, the condition for the iterated Prisoner's Dilemma that 2R>T+S is fullfilled because 2(Z,Z,Z,Z) > 2(X,X) = 2 (Y, Y) > (X,W)&(W,X)...
 
 <img width="721" height="429" alt="image" src="https://github.com/user-attachments/assets/0cbcf6b1-6afe-4bef-b6fb-db5d3841f43e" />
 
