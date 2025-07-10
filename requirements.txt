@@ -1,0 +1,6 @@
+dask
+numpy
+matplotlib
+pandas
+scipy
+tqdm
